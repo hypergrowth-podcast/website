@@ -1,0 +1,132 @@
+body, html {
+    height: 100%;
+}
+.bg{
+    background-image: url("hypergrowth-background.jpg");
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.display-1 {
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    padding-bottom: 50px;
+}
+.container h4 {
+    font-family: 'Nunito', sans-serif;
+    padding-top: 10px;
+    color:white;
+
+
+}
+
+.container h3{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 40px;
+}
+
+ p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 200;
+}
+.lead{
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    margin-bottom: 80px;
+}
+
+.input-group{
+    background-color: #363442;
+    background-color:#363442;
+    color:#363442;
+}
+
+input[type=text] {
+    background: #363442;
+    border: 3px solid white;
+    border-radius: 10px;  
+    background-image: url('send-message-button.png');
+    background-position: 97%;
+    background-repeat: no-repeat;
+    padding-left: 40px; 
+}
+
+.form-control{
+    border-color:white;
+    background-color:#363442;
+    color:#363442;
+}
+
+.nav{
+    background-color: #363442;
+    color:white;
+    padding-top: 5px;
+
+}
+.nav-item {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14pt;
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none; 
+    display: inline-block;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+    
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+    color:white;
+  }
+ 
+
+#subtitle {
+    color:white;
+    font-family: 'Nunito', sans-serif;
+}
+
+#anchor {
+    height: 15%;
+    width: 15%;
+    border-radius: 10px;
+
+}
+#scloud {
+    margin-left:20px;
+    height: 5%;
+    width: 10   %;
+    border-radius: 10px;
+
+}
+
+strong{
+  font-style: italic;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+a {
+    text-decoration: none;     
+  }
+
+iframe {
+  margin-bottom:50px;
+  margin-top: 20px;
+}
